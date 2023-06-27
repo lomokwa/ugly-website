@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Tilt+Prism&display=swap');
+
+ /* font-family: 'Cedarville Cursive', cursive;
+font-family: 'Tilt Prism', cursive; */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  height: 10000px;
+}
+
+#subheading {
+  text-align: right
+}
+
+#rainbow-text {
+  font-family: 'Cedarville Cursive', cursive;
+  color: brown;
+  font-size: 150pt;
+  padding-left: 200px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  
+}
+
+h3 {
+  font-family: 'Tilt Prism', cursive;
+  color: greenyellow;
+  font-weight: 2000;
+  font-size:clamp(17px,4pt,1px);
+}
+#header3 {
+  font-family: 'Cedarville Cursive', cursive;
+  color: bisque;
+  border: 10px solid rgb(255, 0, 0);
+  font-size: 1cm;
+}
+
+#transform .flex-container > div:nth-child(1) {
+  transform: skew(10deg, 20deg) ;
+  float: right;
+}
+
+#transform .flex-container > div:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+
+#img3 {
+  width: 500px;
+  height: 200px
+}
+
+img {
+  width: 10%;
+  aspect-ratio: 10/34;
+
+}
+
+img:hover {
+  transform:scale(10);
+  align-content: center;
+}
+
+footer {
+  position:static;
+  bottom: 0;
+  text-align: center;
+}
